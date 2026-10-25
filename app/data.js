@@ -66,19 +66,22 @@ export const news = [
   {
     date: "1 Sep 2026",
     title: "Erik McKee appointed President of the Americas",
-    image: "/images/mckee.jpg",
+    tileLabel: "Team",
+    tileWord: "Americas",
     href: "https://vexlum.com/vexlum-appoints-laser-industry-expert-erik-mckee-as-president-of-the-americas-to-accelerate-growth/",
   },
   {
     date: "21 Jul 2026",
     title: "Dr. Stefan Truppe to lead Vexlum UK",
-    image: "/images/truppe.jpg",
+    tileLabel: "Team",
+    tileWord: "United Kingdom",
     href: "https://vexlum.com/vexlum-grows-its-european-presence-and-appoints-dr-stefan-truppe-as-managing-director-of-vexlum-uk/",
   },
   {
     date: "16 Apr 2026",
     title: "Vexlum and Menlo Systems team up on optical clocks",
-    image: "/images/menlo.jpg",
+    tileLabel: "Partnership",
+    tileWord: "Optical clocks",
     href: "https://vexlum.com/vexlum-and-menlo-systems-launch-collaboration-to-streamline-optical-clock-development/",
   },
 ];

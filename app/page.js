@@ -129,8 +129,10 @@ export default function HomePage() {
             <div className="card-grid three">
               {news.map((item) => (
                 <a key={item.title} href={item.href} className="card news-card">
-                  <div className="news-image">
-                    <Image src={item.image} alt="" fill sizes="(max-width: 800px) 100vw, 33vw" />
+                  {/* Simple brand-colour tile instead of a photo */}
+                  <div className="news-tile">
+                    <span className="news-tile-label">{item.tileLabel}</span>
+                    <span className="news-tile-word">{item.tileWord}</span>
                   </div>
                   <div className="news-body">
                     <p className="news-date">{item.date}</p>

@@ -128,8 +128,18 @@ h3 { font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--purple); }
 /* ===== News ===== */
 .news-card { border: 1px solid #ece8ea; transition: box-shadow 0.2s; }
 .news-card:hover { box-shadow: 0 8px 28px rgba(55,16,47,0.12); }
-.news-image { position: relative; height: 220px; }
-.news-image img { object-fit: cover; object-position: center 30%; }
+.news-tile {
+  height: 200px; padding: 24px; display: flex; flex-direction: column; justify-content: space-between;
+  background: var(--purple); color: var(--white);
+  border-bottom: 4px solid var(--yellow);
+}
+.news-tile-label {
+  align-self: flex-start; background: var(--yellow); color: var(--purple);
+  font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;
+  padding: 4px 10px; border-radius: 3px;
+}
+.news-tile-word { font-family: var(--font-heading), sans-serif; font-size: 1.9rem; line-height: 1.1; }
+.news-card:hover .news-tile-word { color: var(--yellow); }
 .news-body { padding: 20px 22px 24px; }
 .news-date { color: var(--muted); font-size: 0.85rem; margin-bottom: 6px; }
 
